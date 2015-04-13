@@ -28,14 +28,43 @@
                         </div>
                         <div class="clearfix"></div><br><br>
                         <div class="col-xs-12">
-                            <button type="submit" class="btn btn-primary btn-lg col-xs-12">Verificar se o grupo será levado</button>
+                            <button type="submit" id="verify" class="btn btn-primary btn-lg col-xs-12">Verificar se o grupo será levado</button>
                         </div>
 					</form>
                     <div class="clearfix"></div>
 				</div>
                 <div class="clearfix"></div><br><br>
-                <div class="jumbotron hide" id="retorno">
-                	<h2>Retorno</h2>
+                <div class="jumbotron" id="retorno">
+                    <div class="col-xs-12 col-sm-5 text-left">
+                        <h2>Resultado do Cometa</h2>
+                        <table>
+                            <tr id="resultCometa"></tr>
+                            <tr id="resultCometaValue"></tr>
+                        </table>
+                        <h4>Resultado: <span id="resultCometaCalc"></span></h4>
+                        <h4>Mod: <span id="resultCometaMod"></span></h4>
+                    </div>
+                    <div class="col-xs-12 col-sm-2"></div>
+                    <div class="col-xs-12 col-sm-5 text-left">
+                        <h2>Resultado do Grupo</h2>
+                        <table>
+                            <tr id="resultGrupo"></tr>
+                            <tr id="resultGrupoValue"></tr>
+                        </table>
+                        <h4>Resultado: <span id="resultGrupoCalc"></span></h4>
+                        <h4>Mod: <span id="resultGrupoMod"></span></h4>
+                    </div>
+                    <div class="clearfix"></div><br><br>
+                    <div class="col-xs-12">
+                        <button type="button" class="btn btn-info btn-lg col-xs-12" id="isEquals"></button>
+                    </div>
+                    <div class="clearfix"></div><br><br>
+                    <p>
+                        Link para github <a href="https://github.com/danielpevangelista/ovni">https://github.com/danielpevangelista/ovni</a>
+                    </p>
+                    <p>
+                        JQUERY + PHP + HTML + BOOTSTRAP
+                    </p>
 				</div>
             </div>
         </div>    	
